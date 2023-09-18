@@ -1,0 +1,407 @@
+@media (max-width: 1024px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .price-item {
+        padding: 0.75rem;
+    }
+
+    .price-list {
+        margin: 0 -0.75rem;
+    }
+
+    .price-box .content {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 820px) {
+    .intro .col-12 {
+        padding-bottom: 25px;
+    }
+
+    .ay-list .ay-item {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+
+    .ability {
+        background: none;
+    }
+
+    .ay-list .ay-item::after {
+        content: none !important;
+    }
+
+    .ay-list .left {
+        padding-right: 12.5px;
+        padding-top: 0;
+    }
+
+    .ay-list .right {
+        padding-left: 12.5px;
+    }
+
+    .price-box {
+        padding: 0;
+    }
+
+    .price-box .content img {
+        height: 72px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .w-fchat {
+        margin-top: 50px;
+    }
+
+    .abt-main-title {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .abt-list {
+        margin-bottom: 50px;
+    }
+
+    .abt-item {
+        padding: 30px;
+    }
+
+    .w-fchat p {
+        padding: 40px 30px;
+    }
+
+    .price-box .content {
+        border-top-right-radius: 16px;
+    }
+
+    .ay-title {
+        padding-top: 40px;
+    }
+
+    .own-item {
+        padding: 20px 20px;
+        min-height: 90px;
+    }
+
+    .own-list {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .ft-l {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 900px) and (min-width: 768px) {
+    .ability {
+        background: #f7faff;
+        background-image: url(../images/ability.png);
+        background-size: 60%;
+        background-repeat: no-repeat;
+        background-position: bottom 30px center;
+        /* padding-top: 300px; */
+        padding-bottom: 423px;
+    }
+
+    .header.is-fixed .logo-text {
+        height: 30px;
+        width: auto;
+        display: none;
+    }
+
+    .ft-wrapper {
+        display: block;
+        padding-top: 60px;
+        padding-bottom: 0px;
+        position: relative;
+    }
+
+    .ft-title {
+        margin-bottom: 30px;
+    }
+
+    .ft-left .image {
+        position: relative;
+    }
+
+    .ft-left .image img {
+        position: relative;
+        margin-bottom: 30px;
+        max-height: 300px;
+        top: 0px;
+        right: auto;
+    }
+
+    .feature .ft-title {
+        position: absolute;
+        left: 43%;
+        top: 10%;
+    }
+
+    .feature .ft-right {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .price-box .content {
+        border-top-right-radius: 86px;
+    }
+
+    .price-box {
+        border-top-right-radius: 86px;
+    }
+
+    .abt-item {
+        margin-bottom: 8px;
+    }
+
+    .abt-item:nth-child(2) {
+        border-top-right-radius: 0px;
+    }
+
+    .abt-item:nth-last-child(2) {
+        border-bottom-left-radius: 0px;
+    }
+
+    .abt-list {
+        margin-bottom: 30px;
+    }
+
+    .ft-wrapper {
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+
+    .header.is-fixed .menu-icon {
+        display: block;
+        text-align: RIGHT;
+    }
+
+    .banner {
+        background-position: top left;
+    }
+
+    .ability {
+        background: #f7faff;
+        background-image: url(../images/ability.png);
+        background-size: 92%;
+        background-repeat: no-repeat;
+        padding-bottom: 300px;
+        background-position: bottom 45px center;
+    }
+
+    .ay-title {
+        padding-top: 50px;
+    }
+
+    .ay-item {
+        margin-top: 15px;
+        text-align: left;
+    }
+
+    .price .ay-title {
+        margin-bottom: 0px;
+    }
+
+    .price .ay-title {
+        padding-top: 30px;
+    }
+
+    .own .ay-title {
+        padding-top: 0px;
+    }
+
+    .own-item {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+
+    .own-list {
+        margin-bottom: 40px;
+    }
+
+    .ft-l {
+        margin-top: 0px;
+    }
+
+    .copyright {
+        text-align: center;
+        height: auto;
+        padding: 10px !important;
+    }
+}
+
+@media (max-width: 520px) {
+    .own-list .col-6 {
+        width: 100%;
+    }
+
+    .ft-list li {
+        width: 100%;
+        height: 55px;
+    }
+
+    .ft-list li:nth-child(2n-1)::before {
+        display: none;
+    }
+
+    .ft-list li:nth-child(2n-1) {
+        border-right: solid 0px #e1e1e1;
+    }
+
+    .w-fchat {
+        flex-wrap: wrap;
+    }
+
+    .w-fchat .title::before,
+    .w-fchat .title::after,
+    .w-fchat::before {
+        content: none;
+    }
+
+    .w-fchat .title {
+        text-align: center;
+        width: 100%;
+    }
+
+    .w-fchat p {
+        margin-bottom: 0;
+        padding: 15px;
+    }
+
+    .abt-item,
+    .price-item {
+        width: 100%;
+    }
+
+    .ft-wrapper,
+    .price-list {
+        flex-wrap: wrap;
+    }
+
+    .ft-left .image img {
+        display: none;
+    }
+
+    .ay-list .left {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .ay-list .right {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .price-box {
+        padding: 25px;
+        max-width: 100%;
+    }
+
+    .mobi-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        font-size: 25px;
+        padding: 10px 0;
+    }
+
+    .mobi-head img {
+        height: 35px;
+        display: none;
+    }
+
+    .is-fixed .mobi-head img {
+        height: 26px;
+        display: block;
+    }
+
+    .header.is-fixed .logo-emoi {
+        margin-right: 8px;
+    }
+
+    .header.is-fixed .logo {
+        top: 15px;
+        display: flex;
+    }
+
+    .menu {
+        display: flex;
+        background: var(--blue);
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        z-index: 9999;
+        top: 0;
+        position: absolute;
+        left: -100vw;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        font-size: 25px;
+        line-height: 70px;
+        transition: all ease-in-out 0.3s;
+    }
+
+    .menu.show {
+        left: 0;
+    }
+
+    .menu-link {
+        margin: 0;
+    }
+
+    .menu-close {
+        position: absolute;
+        right: 25px;
+        top: 0;
+        color: white;
+    }
+
+    .abt-main-title {
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+
+    .ft-title {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+
+    .rf-box {
+        width: 100%;
+    }
+
+    .w-fchat,
+    .w-fchat .title {
+        position: inherit;
+    }
+
+    .abt-item {
+        padding: 20px;
+    }
+
+    .ay-title p:first-child {
+        font-size: 40px;
+    }
+
+    .bnr-btn {
+        max-width: 100%;
+    }
+
+    .menu-close {
+        display: block;
+    }
+}
